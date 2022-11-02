@@ -1,0 +1,3 @@
+[submodule "BEVFormer"]
+	path = BEVFormer
+	url = git@github.com:towardsautonomy/BEVFormer.git

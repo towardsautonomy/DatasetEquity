@@ -21,9 +21,11 @@ cd BEVFormer/docker
 sh build-docker.sh
 cd ../..
 cd dd3d/docker
-make docker-build DOCKERFILE=Dockerfile-cu113
+sh build-docker.sh
 cd ../..
 ```
+
+**Note**: These docker images are already built and available on [Docker Hub](https://hub.docker.com/u/towardsautonomy). You can skip this step if you don't want to build the docker images yourself. Running the docker images will automatically pull the images from Docker Hub.
 
 ## Training BEVFormer
 
@@ -70,5 +72,6 @@ Options for `dequity_config` are:
 ```bash
 baseline
 eta0.3_gamma2.0
-...
+eta0.5_gamma5.0
+... etc.
 ```

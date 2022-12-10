@@ -3,4 +3,4 @@
 	url = git@github.com:towardsautonomy/BEVFormer.git
 [submodule "dd3d"]
 	path = dd3d
-	url = ./dd3d
+	url = git@github.com:towardsautonomy/dd3d.git

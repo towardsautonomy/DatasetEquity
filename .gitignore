@@ -1,2 +1,6 @@
 # pickle files
 *.pkl
+
+# cache files
+__pycache__
+.ipynb_checkpoints 

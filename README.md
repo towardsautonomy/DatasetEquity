@@ -1,6 +1,6 @@
 # DatasetEquity: Are All Samples Created Equal? In The Quest For Equity Within Datasets
 
-This is the official implementation of the paper: DatasetEquity. This paper proposes a novel method to ensure dataset equity by weighing each sample differently in the training process according to its likelihood of occurrence within the dataset. This simple and intuitive approach boosts the performance of current state-of-the-art 3D object detection methods towards a higher NDS and mAP score.
+This paper presents a novel method for addressing data imbalance in the field of machine learning, specifically in the context of 3D object detection in computer vision. The proposed method involves weighing each sample differently during training according to its likelihood of occurrence within the dataset, which improves the performance of state-of-the-art 3D object detection methods in terms of NDS and mAP scores.
 
 ## Installation
 

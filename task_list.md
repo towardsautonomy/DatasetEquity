@@ -24,6 +24,7 @@
 * [x] 3D Object Detection(Cam Only) on Nuscenes
 * [x] Monocular 3D Object detection(Cam Only) on KITTI
 * [ ] Real-time 3D Object Detection(Lidar) on Waymo
+* [ ]   
 * [ ] Drivable Area Segmentation(Cam only) on BDD100K
 
 ## Tasks :hugs:
@@ -38,3 +39,8 @@
 
 * [ ] Data analysis on BDD100k
 * [ ] YOLOP for Drivable Area Segmentation on BDD100K
+
+
+## Dockers
+* [x] YOLOP: harbor.hpc.ford.com/xzhan258/torch:1.10_cuda11.4_yolop
+* [x] CenterPoint: harbor.hpc.ford.com/xzhan258/torch:1.10_cuda11.4_centerpoint_waymo

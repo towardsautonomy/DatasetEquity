@@ -11,13 +11,14 @@
 
 ## Datasets :fuelpump:
 * [x] KITTI
-* [x] Nuscenes
-* [ ] Waymo
-* [ ] BDD100k
 * [ ] KITTI Trackig
-* [ ] Culane
-* [ ] Tusimple
-* [ ] Deeplane
+* [x] Nuscenes: /s/dat/UserFolders/xzhan258/bevfusion/data/nuscenes
+* [ ] Waymo: /s/dat/waymo_open_dataset
+* [ ] BDD100k: /s/dat/UserFolders/xzhan258/LaneDetection/BDD100K
+* [ ] Culane: /s/dat/UserFolders/xzhan258/LaneDetection/CULane
+* [ ] Tusimple: /s/dat/UserFolders/xzhan258/LaneDetection/TuSimple
+* [ ] ApolloScape: /s/dat/UserFolders/xzhan258/LaneDetection/ApolloScape
+* [ ] Mapillary: /s/dat/UserFolders/xzhan258/LaneDetection/Mapillary
 
 ## Experimenments :woman_technologist:
 * [x] 3D Object Detection(Cam Only) on Nuscenes

@@ -23,8 +23,7 @@
 ## Experimenments :woman_technologist:
 * [x] 3D Object Detection(Cam Only) on Nuscenes
 * [x] Monocular 3D Object detection(Cam Only) on KITTI
-* [ ] Real-time 3D Object Detection(Lidar) on Waymo
-* [ ]   
+* [ ] Real-time 3D Object Detection(Lidar) on Waymo 
 * [ ] Drivable Area Segmentation(Cam only) on BDD100K
 
 ## Tasks :hugs:

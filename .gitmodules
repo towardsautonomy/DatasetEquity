@@ -4,9 +4,4 @@
 [submodule "dd3d"]
 	path = dd3d
 	url = git@github.com:towardsautonomy/dd3d.git
-[submodule "YOLOP"]
-	path = YOLOP
-	url = git@github.com:alchemz/YOLOP.git
-[submodule "CenterPoint"]
-	path = CenterPoint
-	url = git@github.com:alchemz/CenterPoint.git
+

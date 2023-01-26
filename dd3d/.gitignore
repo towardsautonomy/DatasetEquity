@@ -1,0 +1,37 @@
+# output dir
+outputs/
+wandb/
+
+# dataset
+data/
+
+# cluster hostfiles
+hostfiles/
+
+# Raw files
+*.jpg
+*.png
+*.txt
+
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.so
+build/
+dist/
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+
+# ipython/jupyter notebooks
+*.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~

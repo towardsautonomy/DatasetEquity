@@ -1,0 +1,19 @@
+# @package _global_
+defaults:
+  - dd3d_kitti_dla34
+
+DATASETS:
+  TRAIN:
+    NAME: kitti_3d_train
+    DATASET_EQUITY_ENABLED: False
+    DEQUITY_ETA: 1.0
+    DEQUITY_GAMMA: 0.0
+  TEST:
+    NAME: kitti_3d_val
+
+SOLVER:
+  IMS_PER_BATCH: 64
+
+WANDB:
+  ENABLED: True
+  TAGS: [kitti-val, dla34, dequity]

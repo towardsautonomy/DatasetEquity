@@ -4,4 +4,10 @@
 [submodule "dd3d"]
 	path = dd3d
 	url = git@github.com:towardsautonomy/dd3d.git
+[submodule "BevFusion"]
+	path = BevFusion
+	url = git@github.com:alchemz/bevfusion.git
 
+[submodule "bevfusion"]
+	path = bevfusion
+	url = https://github.com/alchemz/bevfusion.git

@@ -34,3 +34,8 @@ Perform dataset analysis on the KITTI dataset by opening up the `data_analysis/k
 For the nuScenes dataset, use `data_analysis/nuscenes_dataset_distribution_analysis.ipynb` notebook. It will generate a file `data_analysis/nuscenes_training_cluster_info.pkl`, which should be copied over to `BEVFormer/data/nuscenes/`. These paths can be changed in the project config files.
 
 
+## [Training BEVFormer](docs/bevformer.md)
+
+## [Training DD3D](docs/dd3d.md)
+
+## [Training BEVFusion](docs/bevfusion.md)

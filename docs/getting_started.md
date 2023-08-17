@@ -29,9 +29,9 @@ cd ../..
 
 ## Dataset Analysis
 
-Perform dataset analysis on the KITTI dataset by opening up the [this notebook](/data_analysis/kitti_dataset_distribution_analysis.ipynb) notebook, and running the cells. It will generate a file `data_analysis/kitti_training_cluster_info.pkl` which contains all the information needed. By default, this should be copied over to `dd3d/data/datasets/KITTI3D/`.
+Perform dataset analysis on the KITTI dataset by opening up the [this notebook](/data_analysis/kitti_dataset_distribution_analysis.ipynb), and running the cells. It will generate a file `data_analysis/kitti_training_cluster_info.pkl` which contains all the information needed. By default, this should be copied over to `dd3d/data/datasets/KITTI3D/`.
 
-For the nuScenes dataset, use [this notebook](/data_analysis/nuscenes_dataset_distribution_analysis.ipynb) notebook. It will generate a file `data_analysis/nuscenes_training_cluster_info.pkl`, which should be copied over to `BEVFormer/data/nuscenes/`. These paths can be changed in the project config files.
+For the nuScenes dataset, use [this notebook](/data_analysis/nuscenes_dataset_distribution_analysis.ipynb). It will generate a file `data_analysis/nuscenes_training_cluster_info.pkl`, which should be copied over to `BEVFormer/data/nuscenes/`. These paths can be changed in the project config files.
 
 
 ## [Training BEVFormer](bevformer.md)

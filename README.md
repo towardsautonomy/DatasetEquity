@@ -10,16 +10,16 @@ This paper presents a novel method for addressing data imbalance in machine lear
 
 ## TL;DR
 
-The concept of this paper is simple: (1) Quantify the likelihood of occurrence for each sample in the training dataset (2) Compute **Generalized Focal Loss** based on the likelihoods (3) Train the model with the loss function.
+The concept of this paper is simple: (1) Quantify the likelihood of occurrence for each sample in the training dataset (2) Compute **Generalized Focal Loss** based on the likelihoods (3) Train the model with the new weighted loss function.
 
-**Generalized Focal Loss** requires computing a loss weight for each sample, called *DEquity weight*, and can be computed as follows:
+**Generalized Focal Loss** requires computing a loss weight for each sample, called *Dequity Weight*, and can be computed as follows:
 
 ```python
 def dequity_loss_weight(self, p: float, 
                               eta: float=1.0, 
                               gamma: float=5.0
     ) -> float:
-    """Calculate the DEquity loss weight.
+    """Calculate the Dquity Weight.
     Args:
         p (float): The probability of the sample.
         eta (float): The parameter to control the weight.

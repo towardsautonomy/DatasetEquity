@@ -36,6 +36,6 @@ For the nuScenes dataset, use `data_analysis/nuscenes_dataset_distribution_analy
 
 ## [Training BEVFormer](bevformer.md)
 
-## [Training DD3D](d3d.md)
+## [Training DD3D](dd3d.md)
 
 ## [Training BEVFusion](bevfusion.md)

@@ -1,6 +1,6 @@
 # DatasetEquity: Are All Samples Created Equal? In The Quest For Equity Within Datasets
 
-*This is the official implementation of the ICCV 2023 Workshop paper: [DatasetEquity: Are All Samples Created Equal? In The Quest For Equity Within Datasets]().*
+*This is the official implementation of the ICCV 2023 Workshop paper: [DatasetEquity: Are All Samples Created Equal? In The Quest For Equity Within Datasets](https://arxiv.org/abs/2308.09878).*
 
 This paper presents a novel method for addressing data imbalance in machine learning. The method computes sample likelihoods based on image appearance using deep perceptual embeddings and clustering. It then uses these likelihoods to weigh samples differently during training with a proposed **Generalized Focal Loss** function. This loss can be easily integrated with deep learning algorithms. Experiments validate the method's effectiveness across autonomous driving vision datasets including KITTI and nuScenes. The loss function improves state-of-the-art 3D object detection methods, achieving over 200% AP gains on under-represented classes (Cyclist) in the KITTI dataset. The results demonstrate the method is generalizable, complements existing techniques, and is particularly beneficial for smaller datasets and rare classes.
 
